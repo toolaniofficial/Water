@@ -40,6 +40,15 @@ import VirtualPetGame from './components/VirtualPetGame'
 import MusicVisualizer from './components/MusicVisualizer'
 import PomodoroTimer from './components/PomodoroTimer'
 import TypingSpeedTest from './components/TypingSpeedTest'
+import BlogCMS from './fun/BlogCMS'
+import Chat from './fun/Chat'
+import PortfolioWebsite from './fun/PortfolioWebsite'
+import EventCountdownTimer from './fun/EventCountdownTimer'
+import FileUpload from './fun/FileUpload'
+import WeatherDashboard from './fun/WeatherDashboard'
+import MultiLanguage from './fun/MultiLanguage'
+import UrlGenerator from './fun/UrlGenerator'
+// import NewsApp from './fun/NewsApp'
 
 
 function App() {
@@ -47,6 +56,14 @@ function App() {
 
   return (
     <>
+      {/* <NewsApp /> */}
+      <UrlGenerator />
+      <MultiLanguage />
+      <FileUpload />
+      <EventCountdownTimer />
+      <PortfolioWebsite />
+      <Chat />
+      <BlogCMS />
       <Counter />
       <Todolist />
       <Weather />
